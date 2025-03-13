@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profil dan Jadwal Kuliah</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('Bg.jpg');
+            background-size: cover;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-size: 13px;
+            color: white;
+        }
+        .navbar-left {
+            position: absolute;
+            top: 25px;
+            left: 25px;
+            margin-left: 120px;
+        }
+        .navbar-left a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            background: none;
+            border-radius: 5px;
+        }
+        .navbar-right {
+            display: flex;
+            justify-content: right;
+            padding: 25px;
+            margin-right: 120px;
+        }
+        .navbar-right a {
+            color: white;
+            text-decoration: none;
+            font-size: 15px;
+            margin: 0 15px;
+        }
+        .container {
+            margin-top: 50px;
+        }
+        
+        .button {
+            display: inline-block;
+            background: linear-gradient(to right, red, green);
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 10px;
+            font-weight: bold;
+            transition: 0.3s;
+        }
+        .button:hover {
+            background: linear-gradient(to right, green, red);
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar-left">
+        <a href="Halaman Utama.html">Biodata</a>
+    </div>
+
+    <div class="navbar-right">
+        <a href="Halaman Utama.html">Home</a>
+        <a href="JadwalKuliah.html">Jadwal</a>
+    </div>
+    
+    <div class="container" id="home">
+        <img src="Me.jpg"; width="120px"; height="120px"; style="border-radius: 10px">
+        <p>Perkenalan Saya</p>
+        <h3>Adrianne Julian Claresta</h3>
+        <p>NPM 2317051002</p>
+        <p>Jurusan Ilmu Komputer</p>
+        <p>Universitas Lampung</p>
+        <a href="JadwalKuliah.html" class="button">Lihat Jadwal</a>
+    </div>
+</body>
+</html>
